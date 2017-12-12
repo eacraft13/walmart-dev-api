@@ -1,7 +1,7 @@
 (function () {
     'use strict';
 
-    var credentials = { appId: 'Your-App-Id' },
+    var credentials = require('./secret/walmart'),
         walmart = require('walmart-dev-api')(credentials);
 
     /**

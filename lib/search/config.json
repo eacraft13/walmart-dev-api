@@ -1,8 +1,7 @@
 {
-    "uri": "http://open.api.ebay.com/shopping",
+    "uri": "http://api.walmartlabs.com/v1/search",
     "params": {
-        "responseencoding": "JSON",
-        "siteid": "0",
-        "version": "967"
+        "format": "json"
     }
 }
+
